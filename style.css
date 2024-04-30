@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(./assets/fonts/NeueMontreal-Regular.otf);
+}
+*{
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+body{
+    background: #fff;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    position: fixed;
+    padding: 2em;
+    width: 100%;
+    text-align: center;
+    z-index: 100000;
+    color: #fff;
+    mix-blend-mode: difference;
+    font-family: 'Neue Montreal';
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cards {
+    position: absolute;
+    width: 75vw;
+    height: 50rem;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cards li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 75vw;
+    height: 50rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+li:nth-child(1) {
+    background: url("./assets/images/art1.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(2) {
+    background: url("./assets/images/art2.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(3) {
+    background: url("./assets/images/art3.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(4) {
+    background: url("./assets/images/art4.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(5) {
+    background: url("./assets/images/art5.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(6) {
+    background: url("./assets/images/art6.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(7) {
+    background: url("./assets/images/art7.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(8) {
+    background: url("./assets/images/art8.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(9) {
+    background: url("./assets/images/art9.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(10) {
+    background: url("./assets/images/art10.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(11) {
+    background: url("./assets/images/art11.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(12) {
+    background: url("./assets/images/art12.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(13) {
+    background: url("./assets/images/art13.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(14) {
+    background: url("./assets/images/art14.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(15) {
+    background: url("./assets/images/art18.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(16) {
+    background: url("./assets/images/art16.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(17) {
+    background: url("./assets/images/art17.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
+li:nth-child(18) {
+    background: url("./assets/images/art15.jpg") no-repeat 50% 50%;
+    background-size: cover;  
+}
